@@ -15,7 +15,7 @@ export default function Support() {
           {t("support.title")}
         </h2>
         <a
-          href="tel:920024433"
+          href="tel:966115162890"
           className="inline-flex items-center justify-center h-[54px] px-8 rounded-full bg-brand hover:bg-brand-hover text-white text-base font-bold transition-all mb-14 shadow-sm hover:shadow-md"
         >
           {t("support.call_btn")}

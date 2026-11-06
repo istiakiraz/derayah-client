@@ -146,7 +146,7 @@ export default function Academy() {
                   )}
                 </div>
                 <a
-                  href=""
+                  href="https://onlinetrade24.com/login"
                   className="inline-flex items-center justify-center h-10.5 px-5 rounded-full bg-white text-[#121212] font-semibold text-xs hover:bg-brand-hover hover:text-white transition-all w-fit"
                 >
                   {slide.cta}

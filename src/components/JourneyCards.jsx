@@ -24,7 +24,7 @@ export default function JourneyCards() {
               alt={t("journey.card1.title")}
             />
             <a
-              href=""
+              href="https://onlinetrade24.com/login"
               className="inline-flex items-center gap-2 text-xs lg:text-base font-normal text-white z-10"
             >
               <span>{t("journey.card1.cta")}</span>
@@ -56,7 +56,7 @@ export default function JourneyCards() {
             className="h-45 md:min-h-82.5 rounded-2xl p-3 relative overflow-hidden flex flex-col justify-between hover:-rotate-4 duration-500 ease-in-out bg-cover bg-center"
             style={{
               backgroundImage: isArabic
-                ? "url('/images/New-App-CARD-EN-560x0-c-default.png')" // চাইলে এখানে আরবির জন্য আলাদা ইমেজ দিতে পারেন
+                ? "url('/images/New-App-CARD-EN-560x0-c-default.png')" 
                 : "url('/images/New-App-CARD-EN-560x0-c-default.png')",
             }}
           ></div>
@@ -72,19 +72,19 @@ export default function JourneyCards() {
             <h3 className="text-lg md:text-2xl font-semibold leading-[114%] tracking-[-0.26px] mb-0">
               <span dangerouslySetInnerHTML={{ __html: t("journey.card3.title_html") }} />
               <br />
-              <sup className="text-xs">
+              <sup className="text-sm">
                 <a
-                  href=""
+                  href="https://onlinetrade24.com/login"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="underline"
+                  className="hover:underline"
                 >
                   {t("journey.card3.disclaimer")}
                 </a>
               </sup>
             </h3>
             <a
-              href=""
+              href="https://onlinetrade24.com/login"
               className="inline-flex items-center gap-2 text-xs lg:text-base font-normal text-white z-10"
             >
               <span>{t("journey.card3.cta")}</span>
@@ -122,7 +122,7 @@ export default function JourneyCards() {
               alt={t("journey.card4.title")}
             />
             <a
-              href=""
+              href="https://onlinetrade24.com/login"
               className="inline-flex items-center gap-2 text-xs lg:text-base font-normal text-black z-10"
             >
               <span>{t("journey.card4.cta")}</span>
@@ -160,7 +160,7 @@ export default function JourneyCards() {
               alt={t("journey.card5.title")}
             />
             <a
-              href=""
+              href="https://onlinetrade24.com/register"
               className="inline-flex items-center gap-2 text-xs lg:text-base font-normal text-white z-10"
             >
               <span>{t("journey.card5.cta")}</span>
@@ -198,7 +198,7 @@ export default function JourneyCards() {
               alt={t("journey.card6.title")}
             />
             <a
-              href=""
+              href="https://onlinetrade24.com/register"
               className="inline-flex items-center gap-2 text-xs lg:text-base font-normal text-black z-10"
             >
               <span>{t("journey.card6.cta")}</span>

@@ -1,4 +1,4 @@
-import React from "react";
+
 import { useTranslation } from "react-i18next";
 
 export default function Mission() {
@@ -37,7 +37,7 @@ export default function Mission() {
         </p>
 
         <a
-          href=""
+          href="https://onlinetrade24.com/register"
           className="inline-flex items-center justify-center h-[54px] px-8 rounded-full bg-white text-[#121212] font-semibold text-base hover:bg-brand-hover hover:text-white transition-all shadow-md"
         >
           {t("mission.cta")}

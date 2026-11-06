@@ -20,7 +20,7 @@ export default function ReadyToGrow() {
         </h2>
 
         <a
-          href=""
+          href="https://onlinetrade24.com/register"
           className="inline-flex items-center justify-center h-[54px] px-9 rounded-full bg-white hover:bg-brand-hover hover:text-white text-[#121212] font-semibold text-base transition-all "
         >
           {t("ready_to_grow.cta")}

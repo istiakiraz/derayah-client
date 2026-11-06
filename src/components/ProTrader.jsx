@@ -30,7 +30,7 @@ export default function ProTrader() {
           </p>
           <div className="flex items-center gap-4">
             <a
-              href=""
+              href="https://onlinetrade24.com/register"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block items-center justify-center py-3 px-5 md:py-4 md:px-8 rounded-full bg-brand hover:bg-brand-hover text-white text-base font-semibold transition-all"
@@ -38,7 +38,7 @@ export default function ProTrader() {
               {t("pro_trader.cta_start")}
             </a>
             <a
-              href=""
+              href="https://onlinetrade24.com/login"
               className="inline-flex items-center justify-center py-3 px-5 md:py-4 md:px-8 rounded-full bg-white hover:bg-brand-hover hover:text-white text-[#121212] text-base font-semibold transition-all"
             >
               {t("pro_trader.cta_learn")}

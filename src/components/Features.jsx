@@ -33,7 +33,7 @@ export default function Features() {
             />
 
             <a 
-              href="" 
+              href="https://onlinetrade24.com/login" 
               title={t('features.card1.title')} 
               className="inline-flex items-center gap-2 text-xs md:text-sm font-medium text-white z-10"
             >
@@ -63,7 +63,7 @@ export default function Features() {
             />
 
             <a 
-              href="" 
+              href="https://onlinetrade24.com/login" 
               title={t('features.card2.title')} 
               className="inline-flex items-center gap-2 text-xs lg:text-sm font-medium text-[#121212] z-10"
             >
@@ -93,7 +93,7 @@ export default function Features() {
             />
 
             <a 
-              href="" 
+              href="https://onlinetrade24.com/login" 
               title={t('features.card3.title')} 
               className="inline-flex items-center gap-2 text-xs lg:text-sm font-medium text-[#121212] z-10"
             >
@@ -120,7 +120,7 @@ export default function Features() {
             </div>
 
             <a 
-              href="" 
+              href="https://onlinetrade24.com/login" 
               title={t('features.card4.title')} 
               className="inline-flex items-center gap-2 text-xs lg:text-sm font-medium text-white z-10"
             >

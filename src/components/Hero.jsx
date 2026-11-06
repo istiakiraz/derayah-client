@@ -113,7 +113,7 @@ export default function Hero() {
   return (
     <section className="relative w-full overflow-hidden bg-white">
       {/* Progress Bar */}
-      <div className="absolute top-25 start-0 z-40 w-full h-1.25">
+      <div className="absolute top-25 inset-s-0 z-40 w-full h-1.25">
         <div
           className={`h-full bg-[#f47b42] ${
             running ? "animate-hero-progress" : "w-0"
@@ -146,7 +146,7 @@ export default function Hero() {
         ========================== */}
 
         <SwiperSlide>
-          <div className="relative min-h-150 lg:min-h-220 flex items-center lg:start-60 top-20 bg-white">
+          <div className="relative min-h-150 lg:min-h-220 flex items-center lg:inset-s-60 top-20 bg-white">
             {/* Background Image */}
             <img
               src={heroImg1}
@@ -161,7 +161,7 @@ export default function Hero() {
             <div className="absolute inset-0 bg-white/10" />
 
             {/* Content */}
-            <div className="relative lg:end-60 -top-35 md:-top-20 lg:-top-35 z-10 w-full max-w-7xl mx-auto px-5 sm:px-8 lg:px-10">
+            <div className="relative lg:inset-e-60 -top-35 md:-top-20 lg:-top-35 z-10 w-full max-w-7xl mx-auto px-5 sm:px-8 lg:px-10">
               <div className="max-w-155">
                 {/* Heading - Fade Up */}
                 <motion.h1
@@ -194,7 +194,7 @@ export default function Hero() {
                     initial="hidden"
                     animate={activeSlide === 0 ? "visible" : "hidden"}
                     transition={{ delay: 0.4 }}
-                    href=""
+                    href="https://onlinetrade24.com/login"
                     className="inline-flex items-center justify-center px-4 lg:px-10 h-12 w-fit rounded-[10px] bg-[#9565f5] hover:bg-[#8050e5] text-white text-base font-semibold transition-all duration-300 shadow-sm hover:shadow-md"
                   >
                     {t("hero.cta")}
