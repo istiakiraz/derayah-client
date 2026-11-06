@@ -1,6 +1,9 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 export default function Mission() {
+  const { t } = useTranslation();
+
   return (
     <section
       className="relative min-h-[550px] lg:h-screen flex items-center justify-center bg-cover bg-center text-center px-4 py-20"
@@ -30,15 +33,14 @@ export default function Mission() {
         </svg>
 
         <p className="text-2xl sm:text-4xl lg:text-[53px] font-semibold text-white leading-[1.05] tracking-[-1.12px]">
-          We combine innovation and expertise to provide personalized solutions
-          that help you grow your wealth and achieve your investment goals.
+          {t("mission.text")}
         </p>
 
         <a
           href=""
           className="inline-flex items-center justify-center h-[54px] px-8 rounded-full bg-white text-[#121212] font-semibold text-base hover:bg-brand-hover hover:text-white transition-all shadow-md"
         >
-          Sign up
+          {t("mission.cta")}
         </a>
       </div>
     </section>

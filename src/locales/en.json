@@ -1,0 +1,229 @@
+{
+
+  "header": {
+    "trade": "Trade",
+    "trade_menu": {
+      "local": "Local (Saudi)",
+      "global": "Global",
+      "foreign": "Foreign Investors",
+      "margins": "Margins",
+      "pricing": "Pricing"
+    },
+    "invest": "Invest",
+    "invest_menu": {
+      "equity": "Equity Funds",
+      "money_market": "Derayah Money Market Fund",
+      "real_estate": "Real Estate Investments",
+      "discretionary": "Discretionary Portfolio Management",
+      "mutual": "Mutual Funds Supermarket"
+    },
+    "advisory": "Advisory",
+    "advisory_menu": {
+      "smart": "Derayah Smart",
+      "investment": "Investment Advisory"
+    },
+    "learn": "Learn",
+    "learn_menu": {
+      "news": "News",
+      "blog": "Blog",
+      "tutorials": "Tutorials",
+      "webinars": "Webinars",
+      "reports": "Reports"
+    },
+    "about": "About",
+    "about_menu": {
+      "about": "About",
+      "team": "Team",
+      "integrations": "Integrations",
+      "join": "Join Us",
+      "contact": "Contact Us"
+    },
+    "investor_relations": "Investor Relations",
+    "login": "Login",
+    "login_menu": {
+      "platform": "Derayah Platform",
+      "global": "Derayah Global"
+    },
+    "new_account": "New account",
+    "mobile": {
+      "trade_desc": "Saudi & Global",
+      "invest_desc": "Funds & Supermarket",
+      "advisory_desc": "Smart & Advisory",
+      "learn_desc": "News & Academy",
+      "about_desc": "Company & Team"
+    }
+  },
+
+  "hero": {
+    "title": "Empowering your financial future",
+    "description": "Trade and invest globally with Saudi Arabia’s leading independent digital investment platform.",
+    "cta": "Open your account",
+    "download_title": "Download the",
+    "download_app": "Derayah App",
+    "alt_trust": "Derayah Trust Badges",
+    "alt_slide2": "Trade with Derayah Zero Commission"
+  },
+  "mission": {
+    "text": "We combine innovation and expertise to provide personalized solutions that help you grow your wealth and achieve your investment goals.",
+    "cta": "Sign up"
+  },
+  "features": {
+    "section_title": "Diverse offerings with one trusted partner",
+    "card1": {
+      "title": "Trade in Saudi and MENA markets",
+      "desc": "Grow your portfolio with stocks, ETFs, margins, derivatives and Shariah-compliant from TASI to NUMO all in one platform.",
+      "cta": "Explore Derayah Platform"
+    },
+    "card2": {
+      "title": "Access 43+ markets globally",
+      "desc": "Buy and sell with trading access to options, bonds, SPX, NDX, margin trading, and zero commission on US stocks and ETFs with Lite.",
+      "cta": "Explore Derayah Global"
+    },
+    "card3": {
+      "title": "Take the guesswork out of investing",
+      "desc": "Automate your investing with a personalized plan by choosing a portfolio that fits your goals, while we handle diversification and adjustments.",
+      "cta": "Explore Robo-Advisory"
+    },
+    "card4": {
+      "title": "Invest easily, let our experts do the work",
+      "desc": "Explore a diverse range of mutual funds, public funds, and real estate investments tailored to your needs, while we carefully manage your portfolio.",
+      "cta": "Discover Asset Management"
+    }
+  },
+
+  "journey": {
+    "section_title": "Enabling investor success at every stage of your journey",
+    "card1": {
+      "title": "Build your portfolio starting with just 1 SAR",
+      "cta": "Explore Derayah Platform"
+    },
+    "card3": {
+      "title_html": "<b>0% commission</b> on all US stocks &amp; ETFs with Lite*",
+      "disclaimer": "* Limitations apply",
+      "cta": "Explore Derayah Global"
+    },
+    "card4": {
+      "title": "Increase your buying power with Shariah-compliant margins",
+      "cta": "Explore Margins"
+    },
+    "card5": {
+      "title": "Get started in 3 minutes",
+      "cta": "Sign up"
+    },
+    "card6": {
+      "title": "Licensed by the CMA since 2009",
+      "cta": "Get In Touch"
+    }
+  },
+  "pro_trader": {
+    "badge": "PRO TRADER",
+    "title": "Powerful tools for advanced trading",
+    "description": "Gain real-time market insights, advanced charting features and customizable tools. Make smarter trading decisions with integrated channels, conditional orders and seamless multi-device access.",
+    "cta_start": "Start trading",
+    "cta_learn": "Learn more"
+  },
+  "support": {
+    "badge": "HUMAN FIRST SUPPORT",
+    "title": "Always here to support you",
+    "call_btn": "Call us on 920024433",
+    "card1": "On-call brokers: trade easily over the phone",
+    "card2": "Dedicated support for all your financial inquiries",
+    "card3": "Expert advisors to help you succeed"
+  },
+
+  "academy": {
+    "badge": "DERAYAH ACADEMY",
+    "title": "Learn with Derayah",
+    "description": "Your go-to hub to learn how to invest, navigate the Derayah platform, and access finance webinars.",
+    "slides": [
+      {
+        "tag": "Blogs",
+        "title": "Derayah Financial and Alpaca Join Forces to Expand Foreign Investor Access to Saudi Arabia’s Market.",
+        "cta": "Read More"
+      },
+      {
+        "tag": "Tutorials",
+        "title": "How to send the IBAN and personal information using Derayah app",
+        "cta": "Learn more"
+      },
+      {
+        "tag": "News",
+        "title": "Derayah Financial: We have transformed to become the largest independent broker in Saudi Arabia, and the size of our AuM grew by 45% in H1 2024",
+        "date": "15/12/2024",
+        "cta": "Watch Now"
+      },
+      {
+        "tag": "Tutorials",
+        "title": "How to Use Apple Pay on the Derayah App",
+        "date": "15/12/2024",
+        "cta": "Read More"
+      }
+    ]
+  },
+
+  "testimonials_section": {
+    "title": "Why customers choose Derayah",
+    "list": [
+      {
+        "quote": "“Derayah Financial has given me access to a diverse range of investment opportunities and helped me grow my portfolio.”",
+        "author": "Mohamed N."
+      },
+      {
+        "quote": "“Speed and flexibility are what matter most to me. Derayah processes my requests before I even hang up! Whether it’s buying or transferring, the team always delivers.”",
+        "author": "Waleed H."
+      },
+      {
+        "quote": "“Derayah excels in diversification of products. They also handle everything over the phone, and the service is excellent.”",
+        "author": "Mohammad B."
+      },
+      {
+        "quote": "“Derayah offers quick responses, reduced trading fees, and high financing benefits. The service and Murabaha Financing product are exceptional.”",
+        "author": "Abdullah M."
+      }
+    ]
+  },
+
+  "ready_to_grow": {
+    "title": "Get started with Derayah in under 3 minutes",
+    "cta": "Sign up"
+  },
+
+  "footer": {
+    "company_title": "Derayah Financial",
+    "company_desc": "Derayah Financial, P.B: 286546, Riyadh 11323, Saudi Arabia , Licensed by the Capital Market Authority 08109 - 27",
+    "products_title": "Products",
+    "products": {
+      "platform": "Derayah Platform",
+      "global": "Global Trade",
+      "funds": "Derayah Funds",
+      "margins": "Margins",
+      "smart": "Derayah Smart",
+      "advisory": "Investment Advisory"
+    },
+    "about_title": "About Derayah",
+    "about": {
+      "about": "About",
+      "team": "Team",
+      "join": "Join Us",
+      "integrations": "Integrations",
+      "terms": "Terms of Service",
+      "privacy": "Privacy Policy",
+      "contact": "Contact Us"
+    },
+    "learn_title": "Learn",
+    "learn": {
+      "news": "News",
+      "tutorials": "Tutorials",
+      "webinars": "Webinars",
+      "blog": "Blog",
+      "reports": "Reports"
+    },
+    "download_title": "Download Derayah App",
+    "legal_text_1": "By using this site, you agree to the ",
+    "terms_link": "Terms of Service",
+    "legal_text_2": " and ",
+    "privacy_link": "Privacy Policy",
+    "legal_text_3": ".",
+    "copyright": "All Rights Reserved ©2026"
+  }
+}
