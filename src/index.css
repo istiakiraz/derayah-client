@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  --color-brand: #9e6eff;
+  --color-brand-hover: #864aff;
+  --color-brand-dark: #652adf;
+  --color-brand-light: #eee5ff;
+  --color-brand-soft: #d9c7ff;
+  --color-dark: #121212;
+  --color-muted: #717171;
+}
+
+@layer base {
+  html {
+    font-family: var(--font-sans);
+    scroll-behavior: smooth;
+    color: #121212;
+    background-color: #ffffff;
+  }
+}
+
+
+@theme {
+  --animate-hero-progress: hero-progress 7s linear forwards;
+
+  @keyframes hero-progress {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 100%;
+    }
+  }
+}
+
