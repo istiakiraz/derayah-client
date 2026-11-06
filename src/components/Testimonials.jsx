@@ -1,4 +1,9 @@
 import React from 'react';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Autoplay } from 'swiper/modules';
+
+// Import Swiper styles
+import 'swiper/css';
 
 export default function Testimonials() {
   const testimonials = [
@@ -33,31 +38,48 @@ export default function Testimonials() {
   ];
 
   return (
-    <section className="py-20 lg:py-28 bg-white">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section className="py-20 mx-auto lg:py-28 bg-white overflow-hidden">
+      <div className="lg:max-w-11/12 mx-auto px-4 sm:px-6 lg:px-8">
         
-        <h2 className="text-3xl sm:text-4xl lg:text-[53px] font-semibold text-black leading-tight tracking-[-0.02em] text-center mb-16 max-w-4xl mx-auto">
+        <h2 className="text-4xl sm:text-4xl lg:text-[53px] font-semibold text-black leading-tight tracking-[-0.02em] text-center mb-16 max-w-4xl mx-auto">
           Why customers choose Derayah
         </h2>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
+        {/* Swiper Slider with partial slide preview for mobile */}
+        <Swiper
+          modules={[Autoplay]}
+          spaceBetween={16}
+          slidesPerView={1.15}
+          autoplay={{ delay: 4000, disableOnInteraction: false }}
+          breakpoints={{
+            640: {
+              slidesPerView: 2,
+              spaceBetween: 20,
+            },
+            1024: {
+              slidesPerView: 4,
+              spaceBetween: 20,
+            },
+          }}
+          className="pb-4"
+        >
           {testimonials.map((item) => (
-            <div 
-              key={item.id}
-              className={`${item.bg} ${item.text} p-7 rounded-2xl min-h-[330px] flex flex-col justify-between shadow-sm`}
-            >
-              <h3 className="text-2xl font-semibold leading-snug tracking-tight">
-                {item.quote}
-              </h3>
-              <p className="text-base font-medium opacity-90">
-                {item.author}
-              </p>
-            </div>
+            <SwiperSlide key={item.id} className="h-auto">
+              <div 
+                className={`${item.bg} ${item.text} p-7 rounded-2xl h-[330px] flex flex-col justify-between shadow-sm`}
+              >
+                <h3 className="text-lg lg:text-xl leading-snug tracking-tight">
+                  {item.quote}
+                </h3>
+                <p className="text-base font-medium opacity-90">
+                  {item.author}
+                </p>
+              </div>
+            </SwiperSlide>
           ))}
-        </div>
+        </Swiper>
 
       </div>
     </section>
   );
 }
-

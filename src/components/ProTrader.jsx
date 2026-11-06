@@ -6,7 +6,7 @@ export default function ProTrader() {
       className="relative overflow-hidden min-h-[650px] lg:h-screen flex items-center py-20 px-4 sm:px-6 lg:px-8" 
       style={{ backgroundImage: "linear-gradient(180deg, #9e6eff -11.94%, #635480 9.51%, #000000 68.22%)" }}
     >
-      <div className="max-w-7xl mx-auto w-full flex flex-col lg:flex-row items-center justify-between relative z-10">
+      <div className="max-w-6xl mx-auto w-full flex flex-col lg:flex-row items-center justify-between relative z-10">
         
         {/* Left Content */}
         <div className="lg:w-1/2 text-[#f7f7f7] z-10">
@@ -41,7 +41,7 @@ export default function ProTrader() {
         <div className="lg:w-1/2 flex justify-center lg:justify-end mt-10 lg:mt-0">
           <img 
             src="/images/2XPAfqX-1-1-scaled.png" 
-            className="w-full max-w-[650px] object-contain drop-shadow-2xl" 
+            className="w-500 object-contain drop-shadow-2xl" 
             alt="Powerful tools for advanced trading" 
           />
         </div>

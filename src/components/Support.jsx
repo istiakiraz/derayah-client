@@ -3,7 +3,7 @@ import React from 'react';
 export default function Support() {
   return (
     <section className="py-24 lg:py-40 bg-white">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col items-center justify-center text-center">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col items-center justify-center text-center">
         
         <span className="inline-flex items-center px-4 h-7 rounded-full bg-[#eee]/90 text-[#121212] text-xs font-semibold mb-4">
           HUMAN FIRST SUPPORT
@@ -22,7 +22,7 @@ export default function Support() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-5 w-full">
           
           <div 
-            className="h-[330px] rounded-2xl p-6 flex flex-col justify-end text-left bg-cover bg-center text-white relative overflow-hidden shadow-sm" 
+            className=" h-60 md:h-82.5 rounded-2xl p-6 flex flex-col justify-end text-left bg-cover bg-center text-white relative overflow-hidden shadow-sm" 
             style={{ backgroundImage: "linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('/images/New-Project-350x330-c-default.jpg')" }}
           >
             <h3 className="text-2xl font-semibold leading-snug tracking-tight text-white">
@@ -31,7 +31,7 @@ export default function Support() {
           </div>
 
           <div 
-            className="h-[330px] rounded-2xl p-6 flex flex-col justify-end text-left bg-cover bg-center text-white relative overflow-hidden shadow-sm" 
+            className="h-60 md:h-82.5 rounded-2xl p-6 flex flex-col justify-end text-left bg-cover bg-center text-white relative overflow-hidden shadow-sm" 
             style={{ backgroundImage: "linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('/images/New-Project-1-350x330-c-default.jpg')" }}
           >
             <h3 className="text-2xl font-semibold leading-snug tracking-tight text-white">
@@ -40,7 +40,7 @@ export default function Support() {
           </div>
 
           <div 
-            className="h-[330px] rounded-2xl p-6 flex flex-col justify-end text-left bg-cover bg-center text-white relative overflow-hidden shadow-sm" 
+            className="h-60 md:h-82.5 rounded-2xl p-6 flex flex-col justify-end text-left bg-cover bg-center text-white relative overflow-hidden shadow-sm" 
             style={{ backgroundImage: "linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('/images/New-Project-2-350x330-c-default.jpg')" }}
           >
             <h3 className="text-2xl font-semibold leading-snug tracking-tight text-white">
