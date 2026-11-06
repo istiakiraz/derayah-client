@@ -29,7 +29,7 @@ export default function Features() {
             />
 
             <a 
-              href="https://web.derayah.com/en/platforms/derayah-platform/" 
+              href="" 
               title="Trade in Saudi and MENA markets" 
               className="inline-flex items-center gap-2 text-xs md:text-sm font-medium text-white  z-10"
             >
@@ -59,7 +59,7 @@ export default function Features() {
             />
 
             <a 
-              href="https://web.derayah.com/en/platforms/derayah-global/" 
+              href="" 
               title="Access 43+ markets globally" 
               className="inline-flex items-center gap-2 text-xs lg:text-sm font-medium text-[#121212]  z-10"
             >
@@ -89,7 +89,7 @@ export default function Features() {
             />
 
             <a 
-              href="https://web.derayah.com/en/derayah-smart/" 
+              href="" 
               title="Take the guesswork out of investing" 
               className="inline-flex items-center gap-2 text-xs lg:text-sm font-medium text-[#121212]  z-10"
             >
@@ -116,7 +116,7 @@ export default function Features() {
             </div>
 
             <a 
-              href="https://web.derayah.com/en/ia/" 
+              href="" 
               title="Invest easily, let our experts do the work" 
               className="inline-flex items-center gap-2 text-xs lg:text-sm font-medium text-white  z-10"
             >

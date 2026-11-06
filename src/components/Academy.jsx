@@ -22,7 +22,7 @@ export default function Academy() {
   const handleScroll = () => {
     if (scrollContainerRef.current) {
       const scrollLeft = scrollContainerRef.current.scrollLeft;
-      const cardWidth = 400; 
+      const cardWidth = 400;
       const index = Math.round(scrollLeft / cardWidth);
       setActiveIndex(Math.min(Math.max(index, 0), totalSlides - 1));
     }
@@ -30,7 +30,6 @@ export default function Academy() {
 
   return (
     <section className=" bg-white overflow-x-hidden">
-    
       <div className="w-full pl-4 sm:pl-6 lg:pl-[calc(max(0px,(100%-72rem)/2)+3rem)]">
         <div className="flex flex-col lg:flex-row gap-8 items-stretch">
           {/* Left Control / Title Card */}
@@ -121,8 +120,8 @@ export default function Academy() {
                 </h3>
               </div>
               <a
-                href="https://web.derayah.com/en/derayah-financial-and-alpaca-join-forces-to-expand-foreign-investor-access-to-saudi-arabias-market/"
-                className="inline-flex items-center justify-center h-10.5 px-5 rounded-full bg-white text-[#121212] font-semibold text-xs hover:bg-[#864aff] hover:text-white transition-all w-fit"
+                href=""
+                className="inline-flex items-center justify-center h-10.5 px-5 rounded-full bg-white text-[#121212] font-semibold text-xs hover:bg-brand-hover hover:text-white transition-all w-fit"
               >
                 Read More
               </a>
@@ -140,8 +139,8 @@ export default function Academy() {
                 </h3>
               </div>
               <a
-                href="https://web.derayah.com/en/tutorial/how-to-send-the-iban-and-personal-information-using-derayah-app/"
-                className="inline-flex items-center justify-center h-10.5 px-5 rounded-full bg-white text-[#121212] font-semibold text-xs hover:bg-[#864aff] hover:text-white transition-all w-fit"
+                href=""
+                className="inline-flex items-center justify-center h-10.5 px-5 rounded-full bg-white text-[#121212] font-semibold text-xs hover:bg-brand-hover hover:text-white transition-all w-fit"
               >
                 Learn more
               </a>
@@ -161,8 +160,8 @@ export default function Academy() {
                 <p className="text-xs text-white/80">15/12/2024</p>
               </div>
               <a
-                href="https://web.derayah.com/en/derayah-financial-we-have-transformed-to-become-the-largest-independent-broker-in-saudi-arabia-and-the-size-of-our-aum-grew-by-45-in-h1-2024/"
-                className="inline-flex items-center justify-center h-10.5 px-5 rounded-full bg-white text-[#121212] font-semibold text-xs hover:bg-[#864aff] hover:text-white transition-all w-fit"
+                href=""
+                className="inline-flex items-center justify-center h-10.5 px-5 rounded-full bg-white text-[#121212] font-semibold text-xs hover:bg-brand-hover hover:text-white transition-all w-fit"
               >
                 Watch Now
               </a>
@@ -180,8 +179,8 @@ export default function Academy() {
                 <p className="text-xs text-white/80">15/12/2024</p>
               </div>
               <a
-                href="https://web.derayah.com/en/tutorial/how-to-use-apple-pay-on-the-derayah-app/"
-                className="inline-flex items-center justify-center h-10.5 px-5 rounded-full bg-white text-[#121212] font-semibold text-xs hover:bg-[#864aff] hover:text-white transition-all w-fit"
+                href=""
+                className="inline-flex items-center justify-center h-10.5 px-5 rounded-full bg-white text-[#121212] font-semibold text-xs hover:bg-brand-hover hover:text-white transition-all w-fit"
               >
                 Read More
               </a>

@@ -174,7 +174,7 @@ export default function Hero() {
                     initial="hidden"
                     animate={activeSlide === 0 ? "visible" : "hidden"}
                     transition={{ delay: 0.4 }}
-                    href="https://newonline.derayah.com/"
+                    href=""
                     style={{ transformPerspective: 800 }}
                     className="inline-flex items-center justify-center px-4 lg:px-10 h-12 w-fit rounded-[10px] bg-[#9565f5] hover:bg-[#8050e5] text-white text-base font-semibold transition-all duration-300 shadow-sm hover:shadow-md"
                   >

@@ -8,14 +8,14 @@ export default function Header() {
   return (
     <header className="fixed top-0 left-0 w-full  pb-5 z-50 bg-white/95 backdrop-blur-md border-b border-gray-100 transition-all duration-300">
       {/* Announcement Banner (Optional) */}
-      <div className="hidden bg-[#9e6eff] text-white px-6 py-2.5 items-center justify-between text-sm font-medium">
+      <div className="hidden bg-brand text-white px-6 py-2.5 items-center justify-between text-sm font-medium">
         <div className="flex-1 flex items-center justify-center gap-2">
           <span>
             Trade in the Saudi and U.S. markets with Zero Commission from
             Derayah for life.
           </span>
           <a
-            href="https://newonline.derayah.com/"
+            href=""
             target="_blank"
             rel="noopener noreferrer"
             className="underline font-bold text-white hover:text-white/80"
@@ -51,8 +51,8 @@ export default function Header() {
           <div className="flex items-center gap-6 xl:gap-8">
             {/* Logo */}
             <Link
-              to="/"
-              className="flex-shrink-0"
+              to=""
+              className="shrink-0`"
               aria-label="Derayah Financial Home"
             >
               <img
@@ -67,7 +67,7 @@ export default function Header() {
               {/* Trade Dropdown */}
               <li className="relative group py-6">
                 <a
-                  href="#"
+                  href=""
                   className="flex items-center gap-1 hover:text-[#6c63ff] transition-colors"
                 >
                   <span>Trade</span>
@@ -87,7 +87,7 @@ export default function Header() {
                 </a>
                 <div className="absolute left-0 top-[calc(100%-8px)] hidden group-hover:flex flex-col bg-white border border-gray-200 rounded-xl shadow-xl min-w-[275px] py-2 z-50">
                   <a
-                    href="https://web.derayah.com/en/platforms/derayah-platform/"
+                    href=""
                     className="flex items-center gap-3 px-5 py-3 hover:bg-[#f7f7f7] text-gray-900 font-normal text-sm transition-colors"
                   >
                     <img
@@ -98,7 +98,7 @@ export default function Header() {
                     <span>Local (Saudi)</span>
                   </a>
                   <a
-                    href="https://web.derayah.com/en/platforms/derayah-global/"
+                    href=""
                     className="flex items-center gap-3 px-5 py-3 hover:bg-[#f7f7f7] text-gray-900 font-normal text-sm transition-colors"
                   >
                     <img
@@ -109,7 +109,7 @@ export default function Header() {
                     <span>Global</span>
                   </a>
                   <a
-                    href="https://web.derayah.com/en/foreign-investor-onboarding/"
+                    href=""
                     className="flex items-center gap-3 px-5 py-3 hover:bg-[#f7f7f7] text-gray-900 font-normal text-sm transition-colors"
                   >
                     <img
@@ -120,7 +120,7 @@ export default function Header() {
                     <span>Foreign Investors</span>
                   </a>
                   <a
-                    href="/en/margins/trading-margin/"
+                    href=""
                     className="flex items-center gap-3 px-5 py-3 hover:bg-[#f7f7f7] text-gray-900 font-normal text-sm transition-colors"
                   >
                     <img
@@ -131,7 +131,7 @@ export default function Header() {
                     <span>Margins</span>
                   </a>
                   <a
-                    href="https://web.derayah.com/en/prices-fees/"
+                    href=""
                     className="flex items-center gap-3 px-5 py-3 hover:bg-[#f7f7f7] text-gray-900 font-normal text-sm transition-colors"
                   >
                     <img
@@ -147,7 +147,7 @@ export default function Header() {
               {/* Invest Dropdown */}
               <li className="relative group py-6">
                 <a
-                  href="https://web.derayah.com/en/invest/"
+                  href=""
                   className="flex items-center gap-1 hover:text-[#6c63ff] transition-colors"
                 >
                   <span>Invest</span>
@@ -167,7 +167,7 @@ export default function Header() {
                 </a>
                 <div className="absolute left-0 top-[calc(100%-8px)] hidden group-hover:flex flex-col bg-white border border-gray-200 rounded-xl shadow-xl min-w-[275px] py-2 z-50">
                   <a
-                    href="https://web.derayah.com/en/equity-funds/"
+                    href=""
                     className="flex items-center justify-between px-5 py-3 hover:bg-[#f7f7f7] text-gray-900 font-normal text-sm transition-colors"
                   >
                     <div className="flex items-center gap-3">
@@ -193,7 +193,7 @@ export default function Header() {
                     </svg>
                   </a>
                   <a
-                    href="https://web.derayah.com/en/products/derayah-money-market-fund/"
+                    href=""
                     className="flex items-center gap-3 px-5 py-3 hover:bg-[#f7f7f7] text-gray-900 font-normal text-sm transition-colors"
                   >
                     <img
@@ -204,7 +204,7 @@ export default function Header() {
                     <span>Derayah Money Market Fund</span>
                   </a>
                   <a
-                    href="https://web.derayah.com/en/reit/"
+                    href=""
                     className="flex items-center gap-3 px-5 py-3 hover:bg-[#f7f7f7] text-gray-900 font-normal text-sm transition-colors"
                   >
                     <img
@@ -215,7 +215,7 @@ export default function Header() {
                     <span>Real Estate Investments</span>
                   </a>
                   <a
-                    href="https://web.derayah.com/en/dpm/"
+                    href=""
                     className="flex items-center gap-3 px-5 py-3 hover:bg-[#f7f7f7] text-gray-900 font-normal text-sm transition-colors"
                   >
                     <img
@@ -226,7 +226,7 @@ export default function Header() {
                     <span>Discretionary Portfolio Management</span>
                   </a>
                   <a
-                    href="https://web.derayah.com/en/mutual-funds-super-market/"
+                    href=""
                     className="flex items-center gap-3 px-5 py-3 hover:bg-[#f7f7f7] text-gray-900 font-normal text-sm transition-colors"
                   >
                     <img
@@ -242,7 +242,7 @@ export default function Header() {
               {/* Advisory Dropdown */}
               <li className="relative group py-6">
                 <a
-                  href="#"
+                  href=""
                   className="flex items-center gap-1 hover:text-[#6c63ff] transition-colors"
                 >
                   <span>Advisory</span>
@@ -262,7 +262,7 @@ export default function Header() {
                 </a>
                 <div className="absolute left-0 top-[calc(100%-8px)] hidden group-hover:flex flex-col bg-white border border-gray-200 rounded-xl shadow-xl min-w-[275px] py-2 z-50">
                   <a
-                    href="https://web.derayah.com/en/derayah-smart/"
+                    href=""
                     className="flex items-center gap-3 px-5 py-3 hover:bg-[#f7f7f7] text-gray-900 font-normal text-sm transition-colors"
                   >
                     <img
@@ -273,7 +273,7 @@ export default function Header() {
                     <span>Derayah Smart</span>
                   </a>
                   <a
-                    href="https://web.derayah.com/en/ia/"
+                    href=""
                     className="flex items-center gap-3 px-5 py-3 hover:bg-[#f7f7f7] text-gray-900 font-normal text-sm transition-colors"
                   >
                     <img
@@ -289,7 +289,7 @@ export default function Header() {
               {/* Learn Dropdown */}
               <li className="relative group py-6">
                 <a
-                  href="/"
+                  href=""
                   className="flex items-center gap-1 hover:text-[#6c63ff] transition-colors"
                 >
                   <span>Learn</span>
@@ -309,7 +309,7 @@ export default function Header() {
                 </a>
                 <div className="absolute left-0 top-[calc(100%-8px)] hidden group-hover:flex flex-col bg-white border border-gray-200 rounded-xl shadow-xl min-w-[275px] py-2 z-50">
                   <a
-                    href="https://web.derayah.com/en/latest-insights-on-market-in-saudi-arabia-derayah-financial/"
+                    href=""
                     className="flex items-center gap-3 px-5 py-3 hover:bg-[#f7f7f7] text-gray-900 font-normal text-sm transition-colors"
                   >
                     <img
@@ -320,7 +320,7 @@ export default function Header() {
                     <span>News</span>
                   </a>
                   <a
-                    href="https://web.derayah.com/en/blog/"
+                    href=""
                     className="flex items-center gap-3 px-5 py-3 hover:bg-[#f7f7f7] text-gray-900 font-normal text-sm transition-colors"
                   >
                     <img
@@ -331,7 +331,7 @@ export default function Header() {
                     <span>Blog</span>
                   </a>
                   <a
-                    href="https://web.derayah.com/en/tutorials/"
+                    href=""
                     className="flex items-center gap-3 px-5 py-3 hover:bg-[#f7f7f7] text-gray-900 font-normal text-sm transition-colors"
                   >
                     <img
@@ -342,7 +342,7 @@ export default function Header() {
                     <span>Tutorials</span>
                   </a>
                   <a
-                    href="https://web.derayah.com/en/webinars/"
+                    href=""
                     className="flex items-center gap-3 px-5 py-3 hover:bg-[#f7f7f7] text-gray-900 font-normal text-sm transition-colors"
                   >
                     <img
@@ -353,7 +353,7 @@ export default function Header() {
                     <span>Webinars</span>
                   </a>
                   <a
-                    href="https://web.derayah.com/en/reports/"
+                    href=""
                     className="flex items-center gap-3 px-5 py-3 hover:bg-[#f7f7f7] text-gray-900 font-normal text-sm transition-colors"
                   >
                     <img
@@ -369,7 +369,7 @@ export default function Header() {
               {/* About Dropdown */}
               <li className="relative group py-6">
                 <a
-                  href="/"
+                  href=""
                   className="flex items-center gap-1 hover:text-[#6c63ff] transition-colors"
                 >
                   <span>About</span>
@@ -389,7 +389,7 @@ export default function Header() {
                 </a>
                 <div className="absolute left-0 top-[calc(100%-8px)] hidden group-hover:flex flex-col bg-white border border-gray-200 rounded-xl shadow-xl min-w-[275px] py-2 z-50">
                   <a
-                    href="https://web.derayah.com/en/about/"
+                    href=""
                     className="flex items-center gap-3 px-5 py-3 hover:bg-[#f7f7f7] text-gray-900 font-normal text-sm transition-colors"
                   >
                     <img
@@ -400,7 +400,7 @@ export default function Header() {
                     <span>About</span>
                   </a>
                   <a
-                    href="https://web.derayah.com/en/team/"
+                    href=""
                     className="flex items-center gap-3 px-5 py-3 hover:bg-[#f7f7f7] text-gray-900 font-normal text-sm transition-colors"
                   >
                     <img
@@ -411,7 +411,7 @@ export default function Header() {
                     <span>Team</span>
                   </a>
                   <a
-                    href="https://web.derayah.com/en/integrations/"
+                    href=""
                     className="flex items-center gap-3 px-5 py-3 hover:bg-[#f7f7f7] text-gray-900 font-normal text-sm transition-colors"
                   >
                     <img
@@ -422,7 +422,7 @@ export default function Header() {
                     <span>Integrations</span>
                   </a>
                   <a
-                    href="https://web.derayah.com/en/join-us/"
+                    href=""
                     className="flex items-center gap-3 px-5 py-3 hover:bg-[#f7f7f7] text-gray-900 font-normal text-sm transition-colors"
                   >
                     <img
@@ -433,7 +433,7 @@ export default function Header() {
                     <span>Join Us</span>
                   </a>
                   <a
-                    href="https://web.derayah.com/en/call-us/"
+                    href=""
                     className="flex items-center gap-3 px-5 py-3 hover:bg-[#f7f7f7] text-gray-900 font-normal text-sm transition-colors"
                   >
                     <img
@@ -448,10 +448,7 @@ export default function Header() {
 
               {/* Investor Relations */}
               <li>
-                <a
-                  href="https://ir.derayah.com/index.php"
-                  className="hover:text-[#6c63ff] transition-colors"
-                >
+                <a href="" className="hover:text-[#6c63ff] transition-colors">
                   Investor Relations
                 </a>
               </li>
@@ -462,7 +459,7 @@ export default function Header() {
           <div className="flex items-center gap-3 sm:gap-4">
             {/* Language Selector */}
             <a
-              href="https://web.derayah.com/ar/"
+              href=""
               title="العربية"
               className="inline-flex items-center justify-center gap-1.5 h-[42px] px-3.5 rounded-full bg-[#eee] hover:bg-[#e2e2e2] text-[#121212] text-sm font-semibold transition-colors"
             >
@@ -478,7 +475,7 @@ export default function Header() {
             <div className="relative group hidden sm:inline-block">
               <button
                 type="button"
-                className="inline-flex items-center justify-center gap-2 h-[46px] min-w-[110px] px-5 rounded-full bg-[#121212] hover:bg-[#9e6eff] text-[#f7f7f7] text-sm font-semibold transition-all duration-200 cursor-pointer"
+                className="inline-flex items-center justify-center gap-2 h-[46px] min-w-[110px] px-5 rounded-full bg-[#121212] hover:bg-brand text-[#f7f7f7] text-sm font-semibold transition-all duration-200 cursor-pointer"
               >
                 <span>Login</span>
                 <img
@@ -489,7 +486,7 @@ export default function Header() {
               </button>
               <div className="absolute right-0 top-[calc(100%+8px)] hidden group-hover:flex flex-col bg-white border border-gray-200 rounded-xl shadow-xl min-w-[220px] py-2 z-50">
                 <a
-                  href="https://newonline.derayah.com/#/signin"
+                  href=""
                   className="flex items-center justify-between px-4 py-2.5 hover:bg-[#f7f7f7] text-gray-900 text-sm transition-colors"
                 >
                   <div className="flex items-center gap-2.5">
@@ -515,7 +512,7 @@ export default function Header() {
                   </svg>
                 </a>
                 <a
-                  href="https://www.interactivebrokers.co.uk/sso/Login?partnerID=Derayah"
+                  href=""
                   className="flex items-center justify-between px-4 py-2.5 hover:bg-[#f7f7f7] text-gray-900 text-sm transition-colors"
                 >
                   <div className="flex items-center gap-2.5">
@@ -545,8 +542,8 @@ export default function Header() {
 
             {/* New Account Button */}
             <a
-              href="https://newonline.derayah.com/"
-              className="hidden lg:inline-flex items-center justify-center h-[46px] min-w-[124px] sm:min-w-[132px] px-5 rounded-full bg-[#9e6eff] hover:bg-[#864aff] active:bg-[#652adf] text-white text-sm font-semibold transition-all duration-200 shadow-sm"
+              href=""
+              className="hidden lg:inline-flex items-center justify-center h-[46px] min-w-[124px] sm:min-w-[132px] px-5 rounded-full bg-brand hover:bg-brand-hover active:bg-[#652adf] text-white text-sm font-semibold transition-all duration-200 shadow-sm"
             >
               New account
             </a>
@@ -556,7 +553,7 @@ export default function Header() {
               type="button"
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
               aria-label="Toggle navigation menu"
-              className="lg:hidden inline-flex items-center justify-center w-[42px] h-[42px] rounded-full bg-[#9e6eff] text-white focus:outline-none cursor-pointer"
+              className="lg:hidden inline-flex items-center justify-center w-[42px] h-[42px] rounded-full bg-brand text-white focus:outline-none cursor-pointer"
             >
               {isMobileMenuOpen ? (
                 <svg
@@ -598,7 +595,7 @@ export default function Header() {
           <ul className="flex flex-col gap-2 list-none p-0 m-0">
             <li>
               <a
-                href="https://web.derayah.com/en/platforms/derayah-platform/"
+                href=""
                 className="flex items-center justify-between p-3 rounded-lg hover:bg-white text-gray-800 font-semibold text-sm"
               >
                 <span>Trade</span>
@@ -609,7 +606,7 @@ export default function Header() {
             </li>
             <li>
               <a
-                href="https://web.derayah.com/en/invest/"
+                href=""
                 className="flex items-center justify-between p-3 rounded-lg hover:bg-white text-gray-800 font-semibold text-sm"
               >
                 <span>Invest</span>
@@ -620,7 +617,7 @@ export default function Header() {
             </li>
             <li>
               <a
-                href="https://web.derayah.com/en/derayah-smart/"
+                href=""
                 className="flex items-center justify-between p-3 rounded-lg hover:bg-white text-gray-800 font-semibold text-sm"
               >
                 <span>Advisory</span>
@@ -631,7 +628,7 @@ export default function Header() {
             </li>
             <li>
               <a
-                href="https://web.derayah.com/en/latest-insights-on-market-in-saudi-arabia-derayah-financial/"
+                href=""
                 className="flex items-center justify-between p-3 rounded-lg hover:bg-white text-gray-800 font-semibold text-sm"
               >
                 <span>Learn</span>
@@ -642,7 +639,7 @@ export default function Header() {
             </li>
             <li>
               <a
-                href="https://web.derayah.com/en/about/"
+                href=""
                 className="flex items-center justify-between p-3 rounded-lg hover:bg-white text-gray-800 font-semibold text-sm"
               >
                 <span>About</span>
@@ -653,7 +650,7 @@ export default function Header() {
             </li>
             <li>
               <a
-                href="https://ir.derayah.com/index.php"
+                href=""
                 className="flex items-center justify-between p-3 rounded-lg hover:bg-white text-gray-800 font-semibold text-sm"
               >
                 <span>Investor Relations</span>
@@ -661,14 +658,14 @@ export default function Header() {
             </li>
             <li className="pt-4 border-t border-gray-200 flex flex-col gap-3">
               <a
-                href="https://newonline.derayah.com/#/signin"
+                href=""
                 className="w-full inline-flex items-center justify-center h-[46px] rounded-full bg-[#121212] text-white text-sm font-semibold"
               >
                 Login
               </a>
               <a
-                href="https://newonline.derayah.com/"
-                className="w-full inline-flex items-center justify-center h-[46px] rounded-full bg-[#9e6eff] text-white text-sm font-semibold"
+                href=""
+                className="w-full inline-flex items-center justify-center h-[46px] rounded-full bg-brand text-white text-sm font-semibold"
               >
                 New account
               </a>
